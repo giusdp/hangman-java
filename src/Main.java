@@ -6,12 +6,4 @@ public class Main {
 
         game.run();
     }
-
-    public static class Printer {
-
-        public void print(String toPrint) {
-            System.out.println(toPrint);
-        }
-
-    }
 }

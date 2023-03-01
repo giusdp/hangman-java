@@ -12,7 +12,6 @@ public class Word {
     }
 
     public String getWord() {
-
         String s = "";
 
         char[] chars = this.word.toCharArray();
