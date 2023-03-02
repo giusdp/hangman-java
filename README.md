@@ -4,13 +4,15 @@ apri il terminale con 'Cntrl + Alt + T'
 spostati nella directory locale in cui vuoi fare la cartella
 esempio Scrivania
 `cd Scrivania`
-oppure GITHUB
-`
 
 crea una cartella algoritmi (facoltativo, ma utile per tenere altre repository di algoritmi)
 `mkdir algoritmi`
 e spostati nella cartella appena creata
 `cd !$` equivalente a `cd algoritmi`
+
+oppure /GITHUB/algoritmi
+`mkdir /GITHUB/algoritmi/`
+`cd !$`
 
 clona la repository per fare esperimenti
 `git clone git@github.com:giusdp/hangman-java.git`
