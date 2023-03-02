@@ -2,28 +2,28 @@
 apri il terminale con 'Cntrl + Alt + T'
 
 spostati nella directory locale in cui vuoi fare la cartella
-esempio Scrivania
+esempio Scrivania\\
 `cd Scrivania`
 
-crea una cartella algoritmi (facoltativo, ma utile per tenere altre repository di algoritmi)
-`mkdir algoritmi`
-e spostati nella cartella appena creata
+crea una cartella algoritmi (facoltativo, ma utile per tenere altre repository di algoritmi)\\
+`mkdir algoritmi`\\
+e spostati nella cartella appena creata\\
 `cd !$` equivalente a `cd algoritmi`
 
 oppure /GITHUB/algoritmi
-`mkdir /GITHUB/algoritmi/`
+`mkdir /GITHUB/algoritmi/`\\
 `cd !$`
 
-clona la repository per fare esperimenti
+clona la repository per fare esperimenti\\
 `git clone git@github.com:giusdp/hangman-java.git`
 
 ## per contruibuire a questa repository
 se vuoi contribuire fai una fork (pulsante su github)
-fai le modifiche che vuoi fare
-`git add .`
+fai le modifiche che vuoi fare\\
+`git add .`\\
 `git commit -m 'COMMENTO DELLE TUE MODIFICHE TRA VIRGOLETTE SEMPLICI O DOPPIE'`
 
-e pushale sulla tua fork
+e pushale sulla tua fork\\
 `git push`
 
 quando hai finito di fare modifiche
@@ -32,17 +32,17 @@ chiedi una pull request (pulsante su github)
 # per eseguire questo su terminale
 
 ## controlla di aver `javac` e `java` installato
-`javac --version`
+`javac --version`\\
 `java --version`
 
 se non li hai cercali su internet e installali sulla tua macchina
 
 ## esecuzione su Terminale Linux (no IDE required)
-spostati nella directory *src*
+spostati nella directory **src**\\
 `cd hangman-java/src`
 
-compila i `.java` nei `.class` corrispondenti
-`javac *.java`
+compila i `.java` nei `.class` corrispondenti\\
+`javac *.java`\\
 NOTA BENE: questo comando non è equivalente a fare `javac *` all'inizio (quando non ci sono i .class) perchè viene richiesto esplicitamente da javac che siano `.java` quindi va sempre specificato con `javac *.java`
 
 `java Main`
@@ -86,6 +86,6 @@ cat 'package persone;' >> Persona.java
 cat 'package persone;' >> Studente.java
 ```
 
-a voi e al vostro editor preferito scrivere quello che vi serve
+a voi e al vostro editor preferito scrivere quello che vi serve\\
 (include, classi, classi astratte/concrete, interfacce, enum...) 
 
