@@ -1,7 +1,7 @@
 package game;
 
 public enum GameState {
-    START,
+    EXIT,
     PLAYING,
     WIN,
     LOSE

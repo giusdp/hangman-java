@@ -1,9 +1,5 @@
 package word;
 
-public class WordPicker {
-
-    public Word randomPick() {
-        return new Word("pippo");
-    }
-
+public interface WordPicker {
+    Word randomPick() throws PickerException;
 }
